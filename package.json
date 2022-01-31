@@ -2,15 +2,20 @@
   "name": "atlassian-assist",
   "version": "1.0.0",
   "description": "Display Jira issue list in given project and board by status",
+  "author": "Slavko Pekaric",
+  "license": "MIT",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SlavkoPekaric/atlassian-assist"
+  },
   "scripts": {
     "start": "node index.js"
   },
   "bin": {
     "atlassian-assist": "bin/atlassian-assist.js"
   },
-  "author": "Slavko Pekaric",
-  "license": "ISC",
+  
   "dependencies": {
     "async": "^3.2.2",
     "chalk": "^4.1.2",
